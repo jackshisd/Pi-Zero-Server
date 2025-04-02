@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles can go below */
+html {
+  font-size: 16px; /* Set base font size */
+}
+
+body {
+  @apply bg-gray-100 text-gray-800; /* Tailwind utilities for background and text color */
+  font-family: 'Inter', sans-serif; /* Add a custom font family if desired */
+  line-height: 1.5; /* Set line height for readability */
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold text-gray-900; /* Bold and dark color for headings */
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800; /* Tailwind classes for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  @apply underline; /* Underline links on hover */
+}

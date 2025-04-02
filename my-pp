@@ -1,0 +1,23 @@
+from gpiozero import LED
+import sys
+
+# Initialize the LED on pin 17
+led = LED(17)
+
+if len(sys.argv) > 1:
+    action = sys.argv[1]
+    if action == "turn_on":
+        led.on()
+        print("LED turned on")
+    elif action == "turn_off":
+        led.off()
+        print("LED turned off")
+    elif action == "set_brightness":
+        if len(sys.argv) > 2:
+            brightness = float(sys.argv[2])
+            led.value = brightness / 100  # Convert to 0-1 range
+            print(f"LED brightness set to {brightness}%")
+        else:
+            print("Brightness value is required")
+else:
+    print("No action specified")

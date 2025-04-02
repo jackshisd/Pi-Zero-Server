@@ -1,0 +1,93 @@
+/* src/app/servo/page.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.passwordForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passwordInput {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    transition: border-color 0.3s;
+}
+
+.passwordInput:focus {
+    border-color: #007bff;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.remote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.powerButton {
+    width: 100px; /* Size of the power button */
+    height: 100px; /* Size of the power button */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 10px; /* Add padding to adjust position */
+    position: relative; /* Allows for absolute positioning of the image */
+}
+
+.powerButton:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.powerImage {
+    width: 50px; /* Adjust to desired image size */
+    height: 50px; /* Adjust to desired image size */
+    position: relative;
+    top: 5px; /* Adjust this value to lower the image */
+}
