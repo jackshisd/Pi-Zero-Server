@@ -49,10 +49,13 @@ This project provides a **secure, real-time interface** for viewing system perfo
 ---
 
 ## 📡 GPIO Wiring
-Device	GPIO Pin	Notes
-Light Relay	GPIO 17	Controls 5V relay module
-PC Trigger	GPIO 18	Connected to servo or transistor to simulate power button press
-Status LED	GPIO 21	Optional feedback LED
+| Device       | GPIO Pin | Notes                                               |
+|--------------|----------|-----------------------------------------------------|
+| Light Relay  | GPIO 17  | Controls 5V relay module                            |
+| PC Trigger   | GPIO 18  | Connected to servo or transistor for power button   |
+| Status LED   | GPIO 21  | Optional feedback LED                               |
+
+
 
 ## 📦 Installation
 
