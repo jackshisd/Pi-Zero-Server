@@ -30,9 +30,10 @@ This project provides a **secure, real-time interface** for viewing system perfo
 ---
 
 ## 🖼️ Screenshots
-
-*(Insert screenshots or GIFs here)*
-
+![alt text](rpiserver.png")
+![alt text](web2.jpg")
+![alt text](web1.jpg")
+![alt text](web2.jpg")
 ---
 
 ## 🧰 Tech Stack
