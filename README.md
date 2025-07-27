@@ -30,11 +30,10 @@ This project provides a **secure, real-time interface** for viewing system perfo
 ---
 
 ## 🖼️ Screenshots
-![alt text](rpiserver.jpg)
-![alt text](web2.jpg)
-![alt text](web1.jpg)
-![alt text](screenshot.png)
-
+<img src="rpiserver.jpg" alt="Raspberry Pi Server" width="300">
+<img src="web2.jpg" alt="Web Interface 2" width="300">
+<img src="web1.jpg" alt="Web Interface 1" width="300">
+<img src="web2.png" alt="Web Interface 2 again" width="300">
 ## 🧰 Tech Stack
 
 | Component       | Technology         |
